@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antools</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="icon" type="image/png" href="icon/favicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="icon/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="icon/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Antools" />
+    <link rel="manifest" href="site.webmanifest" />
+    
+    <link rel="preload" href="fonts/poppins-v21-latin-regular.woff2" as="font" crossorigin>
+    <link rel="preload" href="fonts/poppins-v21-latin-500.woff2" as="font" crossorigin>
+    <link rel="preload" href="fonts/poppins-v21-latin-600.woff2" as="font" crossorigin>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="header__navigation">
+                <a href="#" class="header__logo-container logo__container">
+                    <img class="header__logo" src="icon/logo.svg" alt="logo">
+                    <p class="header__logo-title">antools.</p>
+                </a>
+                <button type="button" class="header__burger-menu" aria-label="Toggle menu">
+                    <span class="header__burger-line"></span>
+                    <span class="header__burger-line"></span>
+                    <span class="header__burger-line"></span>
+                </button>
+                <div class="header__navigation-container">
+                    <ul class="header__navigation-list">
+                        <li class="header__navigation-item"><a href="#">Home</a></li>
+                        <li class="header__navigation-item header__categories-item"><a href="#">Categories</a></li>
+                        <li class="header__navigation-item"><a href="#">My Collections</a></li>
+                        <li class="header__navigation-item"><a href="#">Blog</a></li>
+                    </ul>
+                    <div class="header__sign">
+                        <button type="button" class="header__sign-in">Login</button>
+                        <button type="button" class="header__sign-up button">Sign Up</button>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__content">
+                <h1 class="header__title-text">Awesome tools for Designer & Developer<span class="header__title-dot">.</span></h1>
+                <p class="header__description">Antool is a web collection of information on paid or free Design and Development tools</p>
+                <div class="header__search search">
+                    <input class="header__search-input search__input" type="text" placeholder="find more than 430+ tools...">
+                    <button type="button" class="header__search-button button search__button">Search</button>
+                </div>
+                <ul class="header__social-web">
+                    <li class="header__social-web-item">
+                        <a href="https://facebook.com">
+                            <svg width="36" height="36">
+                                <use href="icon/header/bx_bxl-facebook.svg#facebook"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header__social-web-item">
+                        <a href="https://instagram.com">
+                            <svg width="36" height="36">
+                                <use href="icon/header/bx_bxl-instagram.svg#instagram"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header__social-web-item">
+                        <a href="https://twitter.com">
+                            <svg width="36" height="36">
+                                <use href="icon/header/bx_bxl-twitter.svg#twitter"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <img src="img/header/Illustration.png" alt="Illustration" class="header__illustration">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="popular">
+            <div class="container popular__container">
+                <div class="popular__wrapper">
+                    <div class="popular__wrap-title">
+                        <h2 class="popular__title">Most Popular Tools</h2>
+                        <p class="popular__description">Tools for the best Designers and Developers most popularly used in the world</p>
+                    </div>
+                    <ul class="card__list popular__wrap-list">
+                        <li class="card__item popular__item popular__item1">
+                            <div class="card__item-wrap-title popular__item-wrap-title">
+                                <h3 class="card__item-title popular__item-title">FIGMA</h3>
+                                <p class="card__item-appeal popular__item-appeal">Free</p>
+                            </div>
+                            <p class="card__item-description popular__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="card__item-panel popular__item-panel">
+                                <div class="card__item-side-panel popular__item-side-panel">
+                                    <button type="button" class="card__heart-button popular__heart-button" aria-label="Add to favorites">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/heart.svg#heart"/>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="card__folder-add-button popular__folder-add-button" aria-label="Add to collection">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/folder-add.svg#folder-add"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <button type="button" class="card__visit-button popular__visit-button">Visit</button>
+                            </div>
+                        </li>
+                        <li class="card__item card__active-item popular__item popular__item2">
+                            <div class="card__item-wrap-title popular__item-wrap-title">
+                                <h3 class="card__item-title popular__item-title">Sketch</h3>
+                                <p class="card__item-appeal popular__item-appeal">Trial & Paid</p>
+                            </div>
+                            <p class="card__item-description popular__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="card__item-panel popular__item-panel">
+                                <div class="card__item-side-panel popular__item-side-panel">
+                                    <button class="card__heart-button popular__heart-button">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/heart.svg#heart"/>
+                                        </svg>
+                                    </button>
+                                    <button class="card__folder-add-button popular__folder-add-button">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/folder-add.svg#folder-add"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <button type="button" class="card__visit-button button popular__visit-button">Visit</button>
+                            </div>
+                        </li>
+                        <li class="card__item popular__item popular__item3">
+                            <div class="card__item-wrap-title popular__item-wrap-title">
+                                <h3 class="card__item-title popular__item-title">Visual Studio Code</h3>
+                                <p class="card__item-appeal popular__item-appeal">Free</p>
+                            </div>
+                            <p class="card__item-description popular__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="card__item-panel popular__item-panel">
+                                <div class="card__item-side-panel popular__item-side-panel">
+                                    <button type="button" class="card__heart-button popular__heart-button" aria-label="Add to favorites">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/heart.svg#heart"/>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="card__folder-add-button popular__folder-add-button" aria-label="Add to collection">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/folder-add.svg#folder-add"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <button type="button" class="card__visit-button popular__visit-button">Visit</button>
+                            </div>
+                        </li>
+                        <li class="card__item popular__item popular__item4">
+                            <div class="card__item-wrap-title popular__item-wrap-title">
+                                <h3 class="card__item-title popular__item-title">Notion</h3>
+                                <p class="card__item-appeal popular__item-appeal">Free & Paid</p>
+                            </div>
+                            <p class="card__item-description popular__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="card__item-panel popular__item-panel">
+                                <div class="card__item-side-panel popular__item-side-panel">
+                                    <button type="button" class="card__heart-button popular__heart-button" aria-label="Add to favorites">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/heart.svg#heart"/>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="card__folder-add-button popular__folder-add-button" aria-label="Add to collection">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/folder-add.svg#folder-add"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <button type="button" class="card__visit-button popular__visit-button">Visit</button>
+                            </div>
+                        </li>
+                        <li class="card__item popular__item popular__item5">
+                            <div class="card__item-wrap-title popular__item-wrap-title">
+                                <h3 class="card__item-title popular__item-title">Slack</h3>
+                                <p class="card__item-appeal popular__item-appeal">Free & Paid</p>
+                            </div>
+                            <p class="card__item-description popular__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="card__item-panel popular__item-panel">
+                                <div class="card__item-side-panel popular__item-side-panel">
+                                    <button type="button" class="card__heart-button popular__heart-button" aria-label="Add to favorites">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/heart.svg#heart"/>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="card__folder-add-button popular__folder-add-button" aria-label="Add to collection">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/folder-add.svg#folder-add"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <button type="button" class="card__visit-button popular__visit-button">Visit</button>
+                            </div>
+                        </li>
+                        <li class="card__item popular__item popular__item6">
+                            <div class="card__item-wrap-title popular__item-wrap-title">
+                                <h3 class="card__item-title popular__item-title">Invision</h3>
+                                <p class="card__item-appeal popular__item-appeal">Free & Paid</p>
+                            </div>
+                            <p class="card__item-description popular__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="card__item-panel popular__item-panel">
+                                <div class="card__item-side-panel popular__item-side-panel">
+                                    <button type="button" class="card__heart-button popular__heart-button" aria-label="Add to favorites">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/heart.svg#heart"/>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="card__folder-add-button popular__folder-add-button" aria-label="Add to collection">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/folder-add.svg#folder-add"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <button type="button" class="card__visit-button popular__visit-button">Visit</button>
+                            </div>
+                        </li>
+                    </ul>
+                    <button type="button" class="popular__more-button">Load more</button>
+                </div>
+            </div>
+        </section>
+        <section class="brand">
+            <div class="container brand__container">
+                <div class="brand__wrapper">
+                    <h3 class="brand__wrap-title">Trusted more than 150+ brand</h3>
+                    <ul class="brand__wrap-list">
+                        <li class="brand__wrap-item"><img src="icon/brand/logos_microsoft.svg" alt="microsoft"></li>
+                        <li class="brand__wrap-item"><img src="icon/brand/logos_google.svg" alt="google"></li>
+                        <li class="brand__wrap-item"><img src="icon/brand/logos_slack.svg" alt="slack"></li>
+                        <li class="brand__wrap-item"><img src="icon/brand/logos_wordpress.svg" alt="wordpress"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="newcomer">
+            <div class="container newcomer__container">
+                <div class="newcomer__wrapper">
+                    <div class="newcomer__wrap-title">
+                        <h2 class="newcomer__title">Newcomer Tools</h2>
+                        <p class="newcomer__description">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
+                        <button type="button" class="button newcomer__more-button">Explore more</button>
+                    </div>
+                    <ul class="card__list newcomer__wrap-list">
+                        <li class="card__item newcomer__item newcomer__item1">
+                            <div class="card__item-wrap-title newcomer__item-wrap-title">
+                                <h3 class="card__item-title newcomer__item-title">Zeplin</h3>
+                                <p class="card__item-appeal newcomer__item-appeal">Free & Paid</p>
+                            </div>
+                            <p class="card__item-description newcomer__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="card__item-panel newcomer__item-panel">
+                                <div class="card__item-side-panel newcomer__item-side-panel">
+                                    <button type="button" class="card__heart-button newcomer__heart-button" aria-label="Add to favorites">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/heart.svg#heart"/>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="card__folder-add-button newcomer__folder-add-button" aria-label="Add to collection">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/folder-add.svg#folder-add"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <button type="button" class="card__visit-button newcomer__visit-button">Visit</button>
+                            </div>
+                        </li>
+                        <li class="card__active-item card__item newcomer__item newcomer__item2">
+                            <div class="card__item-wrap-title newcomer__item-wrap-title">
+                                <h3 class="card__item-title newcomer__item-title">PHPStorm</h3>
+                                <p class="card__item-appeal newcomer__item-appeal">Free</p>
+                            </div>
+                            <p class="card__item-description newcomer__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="card__item-panel newcomer__item-panel">
+                                <div class="card__item-side-panel newcomer__item-side-panel">
+                                    <button class="card__heart-button newcomer__heart-button">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/heart.svg#heart"/>
+                                        </svg>
+                                    </button>
+                                    <button class="card__folder-add-button newcomer__folder-add-button">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/folder-add.svg#folder-add"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <button type="button" class="button card__visit-button newcomer__visit-button">Visit</button>
+                            </div>
+                        </li>
+                        <li class="card__item newcomer__item newcomer__item3">
+                            <div class="card__item-wrap-title newcomer__item-wrap-title">
+                                <h3 class="card__item-title newcomer__item-title">Toolbox</h3>
+                                <p class="card__item-appeal newcomer__item-appeal">Free</p>
+                            </div>
+                            <p class="card__item-description newcomer__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="card__item-panel newcomer__item-panel">
+                                <div class="card__item-side-panel newcomer__item-side-panel">
+                                    <button type="button" class="card__heart-button newcomer__heart-button" aria-label="Add to favorites">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/heart.svg#heart"/>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="card__folder-add-button newcomer__folder-add-button" aria-label="Add to collection">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/folder-add.svg#folder-add"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <button type="button" class="card__visit-button newcomer__visit-button">Visit</button>
+                            </div>
+                        </li>
+                        <li class="card__item newcomer__item newcomer__item4">
+                            <div class="card__item-wrap-title newcomer__item-wrap-title">
+                                <h3 class="card__item-title newcomer__item-title">Procreate</h3>
+                                <p class="card__item-appeal newcomer__item-appeal">Paid</p>
+                            </div>
+                            <p class="card__item-description newcomer__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="card__item-panel newcomer__item-panel">
+                                <div class="card__item-side-panel newcomer__item-side-panel">
+                                    <button type="button" class="card__heart-button newcomer__heart-button" aria-label="Add to favorites">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/heart.svg#heart"/>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="card__folder-add-button newcomer__folder-add-button" aria-label="Add to collection">
+                                        <svg width="28" height="28" viewBox="-1 -3 28 28">
+                                            <use href="icon/card/folder-add.svg#folder-add"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <button type="button" class="card__visit-button newcomer__visit-button">Visit</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial">
+            <div class="container testimonial__container">
+                <div class="testimonial__wrapper">
+                    <div class="testimonial__arrow-button">
+                        <button type="button" aria-label="Previous testimonial">
+                            <svg width="16" height="28">
+                                <use href="icon/testimonial/arrow-left.svg#arrow-left"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="testimonial__wrap-content">
+                        <div class="testimonial__wrap-image">
+                            <img class="testimonial__image" src="img/testimonial/ronald_richards.png" alt="Ronald Richards">
+                            <div class="testimonial__card">
+                                <h3 class="testimonial__card-title">Ronald Richards</h3>
+                                <p class="testimonial__card-post">Product Manager</p>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">
+                            Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.
+                        </p>
+                    </div>
+                    <div class="testimonial__arrow-button">
+                        <button type="button" aria-label="Next testimonial">
+                            <svg width="16" height="28">
+                                <use href="icon/testimonial/arrow-right.svg#arrow-right"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="testimonial__slide-panel">
+                    <button type="button" class="testimonial__slide-button" aria-label="Go to slide 1"></button>
+                    <button type="button" class="testimonial__slide-button" aria-label="Go to slide 2"></button>
+                    <button type="button" class="testimonial__slide-button" aria-label="Go to slide 3"></button>
+                </div>
+            </div>
+        </section>
+        <section class="join">
+            <div class="container join__container">
+                <h2 class="join__title">Become a contributor?</h2>
+                <p class="join__description">Join us and get tips & tricks to become a great Designer and Developer</p>
+                <div class="join__search search">
+                    <input class="join__search-input search__input" type="text" placeholder="Enter your email...">
+                    <button type="button" class="join__search-button button search__button">Join Us</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__content">
+                <div class="footer__copyright">
+                    <a href="#" class="footer__logo-container logo__container">
+                        <img class="footer__logo" src="icon/logo.svg" alt="logo">
+                        <p class="footer__logo-title">antools.</p>
+                    </a>
+                    <h3 class="footer__copyright-title">Copyright 2021. Antools</h3>
+                    <p class="footer__copyright-description">Antool is a web collection of information on paid or free Design and Development tools</p>
+                </div>
+                <address class="footer__contact">
+                    <h3 class="footer__contact-title">Contact Us</h3>
+                    <a href="tel:+621987463" class="footer__contact-tel">+621987463</a>
+                    <a href="#" class="footer__contact-place">M Building, No.10 A</a>
+                    <a href="mailto:antools@awesome.com" class="footer__contact-email">antools@awesome.com</a>
+                </address>
+                <div class="footer__categories">
+                    <h3 class="footer__categories-title">Categories</h3>
+                    <a href="#" class="footer__categories-design">Design</a>
+                    <a href="#" class="footer__categories-development">Development</a>
+                </div>
+                <div class="footer__company">
+                    <h3 class="footer__company-title">Company Info</h3>
+                    <a href="#" class="footer__company-about">About Us</a>
+                    <a href="#" class="footer__company-partners">Our Partners</a>
+                    <a href="#" class="footer__company-blog">Blog</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
